@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* Ensures padding and border are included in element width */
+}
+
+body {
+    background: #5372F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+h1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    position: absolute;
+    bottom: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 12px;
+    background-color: white;
+    padding: 6px 20px;
+    margin-top: 130px;
+    margin-left: 300px;
+    transition: 0.2s;
+    position: fixed;
+    
+}
+
+#button:hover {
+    transform: scale(1.05);
+    color: black;
+    background-color: lightgreen;
+}
+
+
+#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 10px, 10px;
+    overflow: scroll;
+    font-size: 22px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 520px;
+}
+
+.quote-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin-left: 170px;
+}
