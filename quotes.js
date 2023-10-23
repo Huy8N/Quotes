@@ -11,7 +11,7 @@ give.addEventListener("click", () => {
     .then(data => {
         let show = data.content;
         let authorText = data.author;
-        output.innerText = show;
+        output.innerText = `"${show}"`;
         author.innerText = authorText;
     })
     } catch {
